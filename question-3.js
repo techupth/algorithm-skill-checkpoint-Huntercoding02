@@ -2,15 +2,17 @@
 What is the Big O notation for Function findStudentById . Explain your reason.
 Answer:
 
-O log(n) Because of starting cut the loop from the middle and find result from cutting variable eveytime in each loop
-O log(n) เพราะว่ามีการตัดข้อมูลที่ละครึ่งเริ่มจากตรงกลางทีจะหาว่าข้อมูลที่ต้องการอยู่ฝั่งไหนจากนั้นจะเริ่มตัดเรื่อยๆในทุกรอบการค้นหาจนกว่าจะเจอ
+O(n) It's a normal loop
+O(n) เพราะว่าเป็นการคำนวณปกติ
+
 */
 
 /* 
 What is the Big O notation for Function findProductPrice. Explain your reason.
 Answer:
-O(n) It's a normal loop
-O(n) เพราะว่าเป็นการคำนวณปกติ
+
+O log(n) Because of starting cut the loop from the middle and find result from cutting variable eveytime in each loop
+O log(n) เพราะว่ามีการตัดข้อมูลที่ละครึ่งเริ่มจากตรงกลางทีจะหาว่าข้อมูลที่ต้องการอยู่ฝั่งไหนจากนั้นจะเริ่มตัดเรื่อยๆในทุกรอบการค้นหาจนกว่าจะเจอ
 */
 
 /* 
